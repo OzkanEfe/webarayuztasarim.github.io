@@ -1,0 +1,86 @@
+/* Genel Ayarlar */
+body {
+    /* Tüm sayfanın arka plan rengini ve yazı tipini ayarlar */
+    font-family: Arial, sans-serif; /* Yazı tipini belirler */
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
+    background-color: #f4f4f4; /* Açık gri arka plan rengi */
+    color: #333; /* Varsayılan metin rengi */
+    background-image: url(img/99.jpg); /* Arka plan resmi */
+    background-repeat: no-repeat; /* Arka plan resminin tekrarlanmamasını sağlar */
+    background-size: cover; /* Arka plan resmini kapsayacak şekilde ayarlar */
+    background-attachment: fixed; /* Arka plan resminin sabit kalmasını sağlar */
+}
+
+/* Başlık Bölümü (Header) */
+header {
+    /* Sayfa üst başlık alanının stilini ayarlar */
+    background-color: #007bff; /* Mavi arka plan rengi */
+    color: white; /* Beyaz metin rengi */
+    padding: 20px; /* İç boşluk ekler */
+    text-align: center; /* Metni ortaya hizalar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+}
+
+header h1 {
+    /* Başlıktaki en büyük metnin (h1) stilini ayarlar */
+    margin-bottom: 5px; /* Alt boşluk ekler */
+}
+
+/* Ana İçerik Bölümü (Main) */
+main {
+    /* Ana içerik alanının stilini ayarlar */
+    padding: 20px; /* İç boşluk ekler */
+    max-width: 1000px; /* Maksimum genişliği belirler */
+    margin: 0 auto; /* Sayfayı ortalar */
+}
+
+section {
+    /* Tüm bölümler (section) için alt boşluk ekler */
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white; /* Bölüm arka planını beyaz yapar */
+    border-radius: 8px; /* Köşeleri hafifçe yuvarlar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Hafif gölge ekler */
+}
+
+/* Kartlar (Gezilecek Yerler) */
+.kartlar {
+    /* Gezilecek yer kartlarını düzenleyen div'in stilini ayarlar */
+    display: flex; /* İçindeki öğeleri yan yana sıralamak için (esnek kutu) */
+    gap: 20px; /* Kartlar arasına boşluk koyar */
+    flex-wrap: wrap; /* Ekran küçülünce alt satıra geçmesini sağlar */
+}
+
+.kart {
+    /* Tekil kartların stilini ayarlar */
+    flex: 1; /* Esnekliği ayarlar, her kartın eşit yer kaplamasını sağlar */
+    min-width: 250px; /* Kartın küçülme sınırını belirler */
+    padding: 15px;
+    border: 1px solid #ddd; /* İnce gri bir çerçeve ekler */
+    border-radius: 6px;
+    background-color: #e9ecef; /* Kart arka planı için açık gri */
+}
+
+.kart h3 {
+    /* Kart başlıklarının rengini ayarlar */
+    color: #c94040; /* Kırmızımsı bir renk */
+    margin-top: 0;
+}
+
+/* Alt Bilgi Bölümü (Footer) */
+footer {
+    /* Sayfa alt bilgisinin stilini ayarlar */
+    background-color: #333; /* Koyu gri arka plan rengi */
+    color: white; /* Beyaz metin rengi */
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em; /* Yazı boyutunu küçültür */
+    margin-top: auto; /* Alt bilgi her zaman sayfanın altında kalır */
+}
+
+.kartresmim {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
